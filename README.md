@@ -24,3 +24,6 @@ Contributing
 
 **To run bash inside an image**
 `docker run -i -t --entrypoint /bin/bash <image_hash>`
+
+**To run with your local copy of geoserver_data**
+`docker run --rm --name debug -v <path_to_project>/geoserver-data-dir:/var/lib/geoserver_data  -p 8080:8080 mwerlen/sglk-geoserver:latest`
