@@ -1,0 +1,16 @@
+<dataStore>
+  <id>DataStoreInfoImpl--570ae188:124761b8d78:-7fd9</id>
+  <name>us_states</name>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-1d3df46d:152b6d83cc5:-7fff</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="create spatial index">false</entry>
+    <entry key="cache and reuse memory maps">false</entry>
+    <entry key="url">file:data/shapefiles/states.shp</entry>
+    <entry key="namespace">test.sample</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
