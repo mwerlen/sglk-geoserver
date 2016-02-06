@@ -9,7 +9,6 @@ MAINTAINER Maxime Werlen maxime@werlen.fr
 #-----------------------------------
 
 ENV GEOSERVER_DATA_DIR /var/lib/geoserver_data
-RUN rm -rf $CATALINA_HOME/webapps/geoserver/data && mkdir $GEOSERVER_DATA_DIR
 
 ADD geoserver-data-dir $GEOSERVER_DATA_DIR
 
